@@ -45,6 +45,7 @@ class Product(models.Model):
     )
 # Create your models here.
 
+
     image1_url = models.URLField(blank=True, null=True)
     image1_ur2 = models.URLField(blank=True, null=True)
     image1_ur3 = models.URLField(blank=True, null=True)
